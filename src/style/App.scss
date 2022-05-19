@@ -1,0 +1,84 @@
+.wrapper {
+  background: rgb(132, 121, 121);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.link {
+  font-size: 20px;
+  color: rgb(120, 142, 65);
+  background: rgb(26, 23, 25);
+  display: flex;
+  padding: 15px;
+  width: 100px;
+  max-height: 50px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background: rgb(202, 55, 55);
+  min-width: 100vh;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.message-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.name {
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.mess {
+  width: 250px;
+  height: 60px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.btn {
+  height: 30px;
+  border-radius: 15px;
+}
+.btn:hover {
+  background: green;
+}
+.add-mess {
+  background: rgb(90, 70, 70);
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.add-name {
+  display: flex;
+  padding: 20px;
+  width: 250px;
+  font-size: 16px;
+}
+.add-text {
+  display: flex;
+  padding: 20px;
+  font-size: 16px;
+}
+.btn-del {
+  border-radius: 15px;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-del:hover {
+  background: red;
+}
